@@ -1,0 +1,12 @@
+# EXERCISE 9
+
+list1 = [3, 6, 5, 7, 5, 4, 8]
+list2 = [4, 6, 7, 8, 10,9,12]
+new_list = []
+for num in list1:
+    if num % 2 != 0:
+        new_list.append(num)
+for num1 in list2:
+    if num1 % 2 == 0:
+        new_list.append(num1)
+print(new_list)
