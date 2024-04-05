@@ -1,0 +1,8 @@
+# EXRECISE 5
+def same_different_number(lst):
+    if lst[0] == lst[-1]:
+        print("First And Last Number Are Same")
+    else:
+        print("not same")
+input_list = [4,5,6,7,8,4,5]
+same_different_number(input_list)
