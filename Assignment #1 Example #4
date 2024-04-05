@@ -1,0 +1,23 @@
+EXERCISE 4
+
+def remove_characters(string, n):
+    if n >= len(string):
+        return ""
+    else:
+        return string[n:]
+
+user_input = input("enter the string: ")
+n = 3
+new_string = remove_characters(user_input, n)
+print(new_string)
+
+def remove_character(string, n):
+    if n >= len(string):
+        return ""
+    else:
+        return string[n:]
+
+user_input = input("Enter the string: ")
+n = 4
+new_string = remove_character(user_input, n)  # Corrected function name
+print(new_string)
