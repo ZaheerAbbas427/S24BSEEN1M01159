@@ -1,0 +1,8 @@
+# EXERCISE 2
+
+previous_no = 0
+for i in range(1, 11):
+    current_no = i
+    sum_of_no = previous_no + current_no
+    print(f"current_no: {current_no}), previous_no: {previous_no}, sum: {sum_of_no}")
+    previous_no = current_no
