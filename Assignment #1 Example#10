@@ -1,0 +1,8 @@
+# EXERCISE 10
+
+def reverse_num(number):
+    number = str(number)[::-1]
+    return ','.join(number)
+num1 = int(input("Enter The Integer: "))
+num2 = reverse_num(num1)
+print(num2)
