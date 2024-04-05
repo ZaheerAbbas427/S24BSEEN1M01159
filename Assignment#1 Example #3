@@ -1,0 +1,8 @@
+# EXERCISE 3
+def display_even_character(string):
+    for i in range(len(string)):
+        if i % 2 == 0:        
+            print(string[i])
+        
+user_input = ("Enter the string: ")
+display_even_character(user_input)
